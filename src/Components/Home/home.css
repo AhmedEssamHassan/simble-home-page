@@ -1,0 +1,43 @@
+main {
+  min-height: 75vh;
+}
+.planets-container {
+  position: relative;
+}
+
+.planets-container .i1 {
+  transform: translate(55px, 55px);
+}
+
+.planets-container .i2 {
+  transform: translate(0px, -75px);
+}
+
+.planets-container .i3 {
+  transform: translate(0px, -95px);
+}
+
+.planets-container .i4 {
+  transform: translate(0px, -95px);
+}
+
+.planets-container .i5 {
+  transform: translate(-35px, 20px);
+}
+
+.planets-container .i6 {
+  transform: translate(-75px, -200px);
+}
+
+.planets-container .i7 {
+  transform: translate(-70px, -50px);
+}
+
+.planets-container .i8 {
+  transform: translate(-70px, 50px);
+}
+
+.planets-container .i9 {
+  transform: translate(-20px, -100px);
+  transform: translate();
+}

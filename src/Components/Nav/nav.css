@@ -1,0 +1,61 @@
+nav {
+  color: white;
+  height: 12vh;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.581);
+  background-color: rgba(0, 0, 0, 0.767);
+  text-transform: capitalize;
+}
+
+.menu-btn-container {
+  height: 100%;
+  width: 20%;
+  border-right: 1px solid rgba(255, 255, 255, 0.581);
+}
+
+.contact-container {
+  height: 100%;
+  width: 35%;
+  border-right: 1px solid rgba(255, 255, 255, 0.581);
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-container {
+    width: 0px;
+    overflow: hidden;
+  }
+  .menu-btn-container {
+    width: 50%;
+  }
+  .search-container {
+    width: 50%;
+  }
+  .left {
+    color: transparent;
+    font-size: 1px;
+  }
+}
+.contact-container a {
+  color: white;
+}
+.contact-container a :hover {
+  color: white;
+}
+.search-container {
+  height: 100%;
+  width: 45%;
+}
+
+.inpt-container {
+  height: 100%;
+  width: 100%;
+}
+
+.search-container input {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.881);
+  border-radius: 12px;
+  width: 80%;
+  height: 100%;
+  color: white;
+  outline: none;
+}

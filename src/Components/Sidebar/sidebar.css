@@ -1,0 +1,45 @@
+aside {
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+  height: 400px;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.958);
+  overflow: hidden;
+}
+.icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 35px;
+  margin: 5px;
+  padding: 5px;
+  z-index: 2;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 !important;
+  width: 100%;
+}
+
+li {
+  width: 100%;
+  padding: 15px;
+  text-align: left;
+}
+li p {
+  transition: transform 0.5s linear;
+  padding: 0;
+  margin: 0;
+}
+li:hover {
+  cursor: pointer;
+  background-color: rgba(34, 33, 33, 0.958);
+}
+
+li:hover p {
+  transform: translateX(20px);
+}

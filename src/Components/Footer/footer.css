@@ -1,0 +1,25 @@
+footer {
+  height: 12vh;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+.element-container {
+  color: rgba(245, 245, 245, 0.526);
+}
+
+.element-container:hover {
+  color: white;
+  cursor: pointer;
+}
+
+p {
+  text-align: left;
+  margin: 0;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.num {
+  margin-right: 5px;
+}
